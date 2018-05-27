@@ -1,0 +1,54 @@
+
+html body{
+    height: 100%;
+    background-image: url(degrade.jpg);
+    background-repeat: no-repeat;
+}
+
+p{
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	align-items: center;
+	width:50%;
+	margin: auto;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	border: 3px solid #91283B;
+	background-color:#D58490;
+	border-style: inset;
+	border-radius: 15px;
+	font-size: 70px;
+	color: #9E0E40;;
+}
+
+#score{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+#size-bloc{
+    margin-left: -50px;
+    padding-left: 50%;
+}
+
+
+
+#canvas{
+    background-color: white;
+	z-index: 1;
+	border: 3px solid #9E0E40;
+	border-style: inset;
+	border-radius: 15px;
+}
+
+#canvas-block{
+    margin-left: -250px;
+    padding-left: 50%;
+}  
